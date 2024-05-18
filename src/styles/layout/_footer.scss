@@ -1,0 +1,30 @@
+@use "../abstracts/variables";
+
+.footer-nav {
+  width: 100%;
+  height: 80px;
+  background-color: variables.$white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 57px;
+    height: 30.5px;
+    margin-left: 48px;
+  }
+
+  &__links {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1151px;
+
+    img {
+      width: 31.44px;
+      height: 31.44px;
+    }
+  }
+}

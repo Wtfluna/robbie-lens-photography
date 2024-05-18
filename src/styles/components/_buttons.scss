@@ -1,0 +1,17 @@
+@use "../abstracts/variables";
+
+.button {
+  width: 314px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: variables.$heading-font;
+  font-size: 18px;
+  font-weight: 400;
+  color: variables.$white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 50px;
+  background: linear-gradient(#8e86b5, #acaeed);
+}
