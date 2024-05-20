@@ -1,0 +1,26 @@
+@use "../abstracts/variables";
+
+.photos {
+  width: 100%;
+  height: 412px;
+  padding-top: 140px;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: center;
+  background-color: variables.$primary-color;
+
+  &__gallery {
+    width: 1044.25px;
+    height: 412px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20.75px;
+
+    img {
+      width: 192.25px;
+      height: 195px;
+    }
+  }
+}
