@@ -1,0 +1,77 @@
+@use "../../abstracts/variables";
+
+.presentation {
+  width: 100%;
+  height: 653px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: variables.$primary-color;
+
+  &__text {
+    width: 419px;
+    height: 372px;
+    padding: 0px 182px 19px 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 400;
+
+    h1 {
+      width: 379px;
+      height: 134px;
+      margin-right: 182px;
+      font-family: variables.$heading-font;
+      font-weight: 400;
+      line-height: 67.05px;
+      font-size: variables.$bs-H1;
+      color: variables.$secondary-color;
+    }
+
+    p {
+      width: 409px;
+      height: 108px;
+      margin: 19px 152px 46px 0;
+      line-height: 27.32px;
+      font-family: variables.$paragraph-font;
+      font-size: 20px;
+      letter-spacing: 0.3px;
+      color: variables.$white;
+    }
+  }
+
+  &__photo-border {
+    position: relative;
+  }
+
+  .border {
+    position: relative;
+    display: inline-block;
+  }
+
+  .border::before {
+    content: "";
+    position: absolute;
+    top: 480px;
+    right: 155px;
+    width: 1px;
+    height: 69px;
+    background-color: variables.$secondary-color;
+  }
+  .border::after {
+    content: "";
+    position: absolute;
+    top: 549px;
+    right: 155px;
+    width: 70px;
+    height: 1px;
+    background-color: variables.$secondary-color;
+  }
+
+  img {
+    width: 380px;
+    height: 425px;
+    margin: 101px 178px 127px 0px;
+  }
+}

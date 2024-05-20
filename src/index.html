@@ -44,9 +44,13 @@
           maintenant, j'exerce mon métier avec la passion qui m'anime : capturer
           l'essence de chaque instant.
         </p>
-        <a href="#" class="button">Un projet ? Écrivez-moi</a>
+        <a href="#send" class="button">Un projet ? Écrivez-moi</a>
       </div>
-      <img src="/assets/robbie-lens.jpg" alt="robbie-lens-portrait" />
+      <div class="presentation__photo-border">
+        <div class="border">
+          <img src="/assets/robbie-lens.jpg" alt="robbie-lens-portrait" />
+        </div>
+      </div>
     </section>
     <section class="project">
       <h2>Mon dernier projet</h2>
@@ -58,9 +62,30 @@
         <img src="/assets/landscapes/project-5.jpg" alt="project-5" />
         <img src="/assets/landscapes/project-6.jpg" alt="project-6" />
       </div>
-      <a href="/src/portfolio.html" class="button">Voir mon portfolio</a>
+      <div class="project__button">
+        <a href="/src/portfolio.html" class="button">Voir mon portfolio</a>
+      </div>
     </section>
-
+    <section class="contact-form">
+      <h2>Parlons de votre projet</h2>
+      <form class="contact-form__form">
+        <div class="name">
+          <label for="name">nom</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="email">
+          <label for="email">email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="message">
+          <label for="message">message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div class="contact-form__button" id="send">
+          <a href="#" class="button">Envoyer</a>
+        </div>
+      </form>
+    </section>
     <footer>
       <nav class="footer-nav">
         <img

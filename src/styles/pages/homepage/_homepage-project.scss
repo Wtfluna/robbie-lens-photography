@@ -1,0 +1,34 @@
+@use "../../abstracts/variables";
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background-color: variables.$white;
+
+  h2 {
+    margin: 66px 528px 66px 557px;
+    font-family: variables.$heading-font;
+    font-size: variables.$bs-H2;
+    font-weight: 400;
+    text-align: center;
+    line-height: 42.67px;
+  }
+
+  &__gallery {
+    margin: 0 214px 66px 214px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    img {
+      width: 326px;
+      height: 311px;
+    }
+  }
+  &__button {
+    margin-bottom: 118px;
+    display: flex;
+    justify-content: center;
+  }
+}
