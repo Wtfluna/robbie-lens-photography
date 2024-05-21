@@ -1,0 +1,71 @@
+@use "../../abstracts/variables";
+
+.portfolio-h1 {
+  width: 100%;
+  height: 307px;
+  display: flex;
+  align-items: center;
+  background-color: variables.$primary-color;
+
+  h1 {
+    display: flex;
+    padding-left: 215px;
+    font-family: variables.$heading-font;
+    font-weight: 400;
+    line-height: 67.05px;
+    font-size: variables.$bs-H1;
+    color: variables.$secondary-color;
+  }
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: variables.$white;
+
+  h3 {
+    width: 100%;
+    height: 147px;
+    padding-left: 215px;
+    display: flex;
+    align-items: center;
+    font-family: variables.$heading-font;
+    font-size: variables.$bs-H3;
+    font-weight: 400;
+    text-align: center;
+    line-height: 42.67px;
+  }
+
+  &__landscapes {
+    width: 1010px;
+    height: 638px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap: 16px;
+    background-color: variables.$white;
+
+    img {
+      width: 328px;
+      height: 311px;
+    }
+  }
+  &__portraits {
+    width: 1010px;
+    height: 638px;
+    margin-bottom: 118px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    gap: 16px;
+    background-color: variables.$white;
+
+    img {
+      width: 328px;
+      height: 311px;
+    }
+  }
+}

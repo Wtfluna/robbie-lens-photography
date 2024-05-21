@@ -267,6 +267,139 @@ body {
   justify-content: center;
 }
 
+.portfolio-h1 {
+  width: 100%;
+  height: 307px;
+  display: flex;
+  align-items: center;
+  background-color: #1F2039;
+}
+.portfolio-h1 h1 {
+  display: flex;
+  padding-left: 215px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 67.05px;
+  font-size: 55px;
+  color: #A5B4FC;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+}
+.portfolio h3 {
+  width: 100%;
+  height: 147px;
+  padding-left: 215px;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 42.67px;
+}
+.portfolio__landscapes {
+  width: 1010px;
+  height: 638px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  gap: 16px;
+  background-color: #FFF;
+}
+.portfolio__landscapes img {
+  width: 328px;
+  height: 311px;
+}
+.portfolio__portraits {
+  width: 1010px;
+  height: 638px;
+  margin-bottom: 118px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  gap: 16px;
+  background-color: #FFF;
+}
+.portfolio__portraits img {
+  width: 328px;
+  height: 311px;
+}
+
+.about {
+  width: 100%;
+  height: 792px;
+  background-color: #1F2039;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+}
+.about h1 {
+  width: 602px;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 67.05px;
+  font-size: 55px;
+  color: #A5B4FC;
+}
+.about__container {
+  width: 516px;
+  height: 407px;
+  padding: 101px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+}
+.about__container p {
+  width: 100%;
+  height: 187px;
+  line-height: 21.86px;
+}
+.about__container .services {
+  display: block;
+  margin-top: 24px;
+  font-size: 20px;
+}
+.about__container ul {
+  padding-left: 20px;
+}
+.about__container::before, .about__container::after {
+  content: "";
+  position: absolute;
+  background-color: #A5B4FC;
+}
+.about__container::before {
+  width: 1px;
+  height: 407px; /* Changez cette valeur pour ajuster la longueur */
+  right: 11px;
+  top: 60px; /* Pour centrer verticalement */
+}
+.about__container::after {
+  height: 1px;
+  width: 258px; /* Changez cette valeur pour ajuster la longueur */
+  bottom: 7px;
+  right: 12px; /* Pour centrer horizontalement */
+}
+.about__button {
+  width: 100%;
+  height: auto;
+  padding: 72px 0px 118px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
 .photos {
   width: 100%;
   height: 412px;
@@ -299,72 +432,6 @@ body {
 .photos__gallery img {
   width: 192.25px;
   height: 195px;
-}
-
-.about {
-  width: 100%;
-  height: 792px;
-  background-color: #1F2039;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #FFF;
-}
-.about h1 {
-  width: 602px;
-  height: auto;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  line-height: 67.05px;
-  font-size: 55px;
-  color: #A5B4FC;
-}
-.about__container {
-  width: 516px;
-  height: 407px;
-  padding: 101px;
-  display: flex;
-  flex-direction: column;
-  font-family: "Manrope", sans-serif;
-  position: relative;
-}
-.about__container p {
-  width: 100%;
-  height: 187px;
-  line-height: 21.86px;
-}
-.about__container .services {
-  display: block;
-  margin-top: 20px;
-  font-size: 20px;
-}
-.about__container ul {
-  padding-left: 20px;
-}
-.about__container::before, .about__container::after {
-  content: "";
-  position: absolute;
-  background-color: #A5B4FC;
-}
-.about__container::before {
-  width: 1px;
-  height: 407px; /* Changez cette valeur pour ajuster la longueur */
-  right: 11px;
-  top: 60px; /* Pour centrer verticalement */
-}
-.about__container::after {
-  height: 1px;
-  width: 258px; /* Changez cette valeur pour ajuster la longueur */
-  bottom: 7px;
-  right: 12px; /* Pour centrer horizontalement */
-}
-.about__button {
-  width: 100%;
-  height: auto;
-  padding: 72px 0px 118px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: start;
 }
 
 /*# sourceMappingURL=style.css.map */
