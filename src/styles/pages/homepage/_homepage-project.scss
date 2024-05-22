@@ -3,10 +3,10 @@
 .project {
   display: flex;
   flex-direction: column;
+
   background-color: variables.$white;
 
   h2 {
-    width: 100%;
     height: 187px;
     display: flex;
     justify-content: center;
@@ -19,7 +19,6 @@
   }
 
   &__gallery {
-    width: 100%;
     height: 638px;
     display: flex;
     flex-direction: row;
@@ -33,8 +32,6 @@
     }
   }
   &__button {
-    width: 100%;
-    height: auto;
     padding: 66px 0px 118px 0px;
     display: flex;
     justify-content: center;

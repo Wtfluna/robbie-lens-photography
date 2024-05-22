@@ -1,0 +1,52 @@
+@use "../../abstracts/variables";
+
+.prices-description {
+  height: 380px;
+  background-color: variables.$primary-color;
+  padding-bottom: 85px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  h4,
+  h5 {
+    font-family: variables.$heading-font;
+    color: variables.$secondary-color;
+    line-height: 24.38px;
+  }
+
+  h4 {
+    width: 240px;
+    height: 24px;
+    font-size: variables.$bs-H4;
+    margin-bottom: 21px;
+  }
+
+  p {
+    height: 96px;
+    margin: 0px 38px 35px 0px;
+    font-family: variables.$paragraph-font;
+    color: variables.$white;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  h5 {
+    width: 224px;
+    height: 19px;
+    margin-bottom: 17px;
+  }
+
+  &__details {
+    font-size: 14px;
+  }
+
+  &__container {
+    width: 278px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid variables.$secondary-color;
+    border-bottom: 1px solid variables.$secondary-color;
+  }
+}

@@ -21,7 +21,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .header-nav__logo {
   width: 82.7px;
@@ -50,7 +50,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .footer-nav__logo {
   width: 57px;
@@ -79,7 +79,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 50px;
@@ -87,13 +87,12 @@ body {
 }
 
 .presentation {
-  width: 100%;
   height: 653px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #1F2039;
+  background-color: #1f2039;
 }
 .presentation__text {
   width: 419px;
@@ -112,7 +111,7 @@ body {
   font-weight: 400;
   line-height: 67.05px;
   font-size: 55px;
-  color: #A5B4FC;
+  color: #a5b4fc;
 }
 .presentation__text p {
   width: 409px;
@@ -121,7 +120,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-size: 20px;
   letter-spacing: 0.3px;
-  color: #FFF;
+  color: #fff;
 }
 .presentation__photo-border {
   position: relative;
@@ -137,7 +136,7 @@ body {
   right: -27px;
   width: 1px;
   height: 69px;
-  background-color: #A5B4FC;
+  background-color: #a5b4fc;
 }
 .presentation .border::after {
   content: "";
@@ -146,7 +145,7 @@ body {
   left: 376px;
   width: 70px;
   height: 1px;
-  background-color: #A5B4FC;
+  background-color: #a5b4fc;
 }
 .presentation img {
   width: 419px;
@@ -158,10 +157,9 @@ body {
 .project {
   display: flex;
   flex-direction: column;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .project h2 {
-  width: 100%;
   height: 187px;
   display: flex;
   justify-content: center;
@@ -173,7 +171,6 @@ body {
   line-height: 42.67px;
 }
 .project__gallery {
-  width: 100%;
   height: 638px;
   display: flex;
   flex-direction: row;
@@ -186,8 +183,6 @@ body {
   height: 311px;
 }
 .project__button {
-  width: 100%;
-  height: auto;
   padding: 66px 0px 118px 0px;
   display: flex;
   justify-content: center;
@@ -199,13 +194,13 @@ body {
   height: 721px;
   display: flex;
   flex-direction: column;
-  background-color: #1F2039;
+  background-color: #1f2039;
 }
 .contact-form h2 {
   padding-top: 65px;
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
-  color: #A5B4FC;
+  color: #a5b4fc;
   font-size: 35px;
   font-weight: 400;
   text-align: center;
@@ -235,7 +230,7 @@ body {
   margin-right: 11px;
   display: flex;
   flex-direction: column;
-  color: #FFF;
+  color: #fff;
 }
 .contact-form__form .name #name {
   width: 253px;
@@ -244,7 +239,7 @@ body {
 .contact-form__form .email {
   display: flex;
   flex-direction: column;
-  color: #FFF;
+  color: #fff;
 }
 .contact-form__form .email #email {
   width: 253px;
@@ -253,7 +248,7 @@ body {
 .contact-form__form .message {
   display: flex;
   flex-direction: column;
-  color: #FFF;
+  color: #fff;
 }
 .contact-form__form .message #message {
   width: 525px;
@@ -267,27 +262,97 @@ body {
   justify-content: center;
 }
 
-.portfolio-h1 {
+.prices-header {
+  height: 309px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1f2039;
+}
+.prices-header h1 {
+  width: 602px;
+  height: 67px;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 67.05px;
+  font-size: 55px;
+  color: #a5b4fc;
+}
+.prices-header__button {
+  width: 254px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.prices-description {
+  height: 380px;
+  background-color: #1f2039;
+  padding-bottom: 85px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.prices-description h4,
+.prices-description h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #a5b4fc;
+  line-height: 24.38px;
+}
+.prices-description h4 {
+  width: 240px;
+  height: 24px;
+  font-size: 20px;
+  margin-bottom: 21px;
+}
+.prices-description p {
+  height: 96px;
+  margin: 0px 38px 35px 0px;
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-weight: 300;
+  line-height: 24px;
+}
+.prices-description h5 {
+  width: 224px;
+  height: 19px;
+  margin-bottom: 17px;
+}
+.prices-description__details {
+  font-size: 14px;
+}
+.prices-description__container {
+  width: 278px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #a5b4fc;
+  border-bottom: 1px solid #a5b4fc;
+}
+
+.portfolio-header {
   width: 100%;
   height: 307px;
   display: flex;
   align-items: center;
-  background-color: #1F2039;
+  background-color: #1f2039;
 }
-.portfolio-h1 h1 {
+.portfolio-header h1 {
   display: flex;
   padding-left: 215px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 67.05px;
   font-size: 55px;
-  color: #A5B4FC;
+  color: #a5b4fc;
 }
 
 .portfolio {
   display: flex;
   flex-direction: column;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .portfolio h3 {
   width: 100%;
@@ -301,7 +366,7 @@ body {
   text-align: center;
   line-height: 42.67px;
 }
-.portfolio__landscapes {
+.portfolio__photos {
   width: 1010px;
   height: 638px;
   display: flex;
@@ -310,37 +375,24 @@ body {
   justify-content: center;
   align-self: center;
   gap: 16px;
-  background-color: #FFF;
+  background-color: #fff;
 }
-.portfolio__landscapes img {
+.portfolio__photos img {
   width: 328px;
   height: 311px;
 }
 .portfolio__portraits {
-  width: 1010px;
-  height: 638px;
   margin-bottom: 118px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-self: center;
-  gap: 16px;
-  background-color: #FFF;
-}
-.portfolio__portraits img {
-  width: 328px;
-  height: 311px;
 }
 
 .about {
   width: 100%;
   height: 792px;
-  background-color: #1F2039;
+  background-color: #1f2039;
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #FFF;
+  color: #fff;
 }
 .about h1 {
   width: 602px;
@@ -349,7 +401,7 @@ body {
   font-weight: 400;
   line-height: 67.05px;
   font-size: 55px;
-  color: #A5B4FC;
+  color: #a5b4fc;
 }
 .about__container {
   width: 516px;
@@ -377,23 +429,21 @@ body {
 .about__container::before, .about__container::after {
   content: "";
   position: absolute;
-  background-color: #A5B4FC;
+  background-color: #a5b4fc;
 }
 .about__container::before {
   width: 1px;
-  height: 407px; /* Changez cette valeur pour ajuster la longueur */
+  height: 407px; /* Pour ajuster la longueur */
   right: 11px;
   top: 60px; /* Pour centrer verticalement */
 }
 .about__container::after {
   height: 1px;
-  width: 258px; /* Changez cette valeur pour ajuster la longueur */
-  bottom: 7px;
+  width: 258px; /* Pour ajuster la longueur */
+  bottom: 10px;
   right: 12px; /* Pour centrer horizontalement */
 }
 .about__button {
-  width: 100%;
-  height: auto;
   padding: 72px 0px 118px 0px;
   display: flex;
   justify-content: center;
@@ -407,7 +457,7 @@ body {
   padding: 140px 0 130px 0;
   display: flex;
   justify-content: center;
-  background-color: #1F2039;
+  background-color: #1f2039;
   z-index: 2;
 }
 .photos::before {

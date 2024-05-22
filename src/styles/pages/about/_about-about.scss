@@ -52,22 +52,20 @@
 
     &::before {
       width: 1px;
-      height: 407px; /* Changez cette valeur pour ajuster la longueur */
+      height: 407px; /* Pour ajuster la longueur */
       right: 11px;
       top: 60px; /* Pour centrer verticalement */
     }
 
     &::after {
       height: 1px;
-      width: 258px; /* Changez cette valeur pour ajuster la longueur */
-      bottom: 7px;
+      width: 258px; /* Pour ajuster la longueur */
+      bottom: 10px;
       right: 12px; /* Pour centrer horizontalement */
     }
   }
 
   &__button {
-    width: 100%;
-    height: auto;
     padding: 72px 0px 118px 0px;
     display: flex;
     justify-content: center;

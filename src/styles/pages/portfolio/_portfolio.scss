@@ -1,6 +1,6 @@
 @use "../../abstracts/variables";
 
-.portfolio-h1 {
+.portfolio-header {
   width: 100%;
   height: 307px;
   display: flex;
@@ -35,7 +35,7 @@
     line-height: 42.67px;
   }
 
-  &__landscapes {
+  &__photos {
     width: 1010px;
     height: 638px;
     display: flex;
@@ -51,21 +51,8 @@
       height: 311px;
     }
   }
-  &__portraits {
-    width: 1010px;
-    height: 638px;
-    margin-bottom: 118px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-self: center;
-    gap: 16px;
-    background-color: variables.$white;
 
-    img {
-      width: 328px;
-      height: 311px;
-    }
+  &__portraits {
+    margin-bottom: 118px;
   }
 }
