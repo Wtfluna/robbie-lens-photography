@@ -9,7 +9,7 @@ Welcome to the repository for the portfolio website project for Robbie Lens, a p
 
 ## Overview
 
-The portfolio website includes several sections, including a home page, a photo gallery, a services page, a biography, and a contact page. The design is responsive and optimized for smooth navigation across various devices.
+The portfolio website includes several sections, including a home page, a photo gallery, a services page, a biography, and a contact page.
 
 ## Technologies Used
 
