@@ -6,7 +6,6 @@ Welcome to the repository for the portfolio website project for Robbie Lens, a p
 
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 
 ## Overview
 
